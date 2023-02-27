@@ -1,0 +1,16 @@
+name: FunnyStuff
+version: '${project.version}'
+main: quac.funnystuff.Main
+api-version: 1.19
+commands:
+
+  copydata:
+    description: "CopyData"
+
+  givecustomitem:
+    description: "Give Custom Item"
+    aliases: ["gci", "additem"]
+
+  recomb:
+    description: "RecombItem"
+    aliases: ["recombobulate"]
